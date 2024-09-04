@@ -1,0 +1,19 @@
+create table tickets (
+	id serial primary key,
+	name VARCHAR(200),
+	price numeric,
+	imageurl text
+);
+
+create table Registrasi (
+	id serial primary key,
+	name VARCHAR(30),
+	password VARCHAR(20)
+);
+
+
+create table users (
+	id serial primary key,
+	username VARCHAR(200),
+	password VARCHAR(200)
+)
